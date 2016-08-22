@@ -1,0 +1,203 @@
+.menu ul {
+	list-style: none;
+	display: flex;
+}
+
+.menu li a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+}
+
+ul li {
+	margin-left: 20px;
+	display: inline;
+}
+
+
+button {
+	display: inline-block;
+	border-radius: 9px;
+	border-style: none;
+	width: 100px;
+}
+
+ a {
+	text-decoration: none;
+	color: black;
+}
+
+span {
+	color: black;
+}
+
+.barra-gris {
+	width: 100%;
+	height: 80px;
+}
+
+.sub:hover a {
+	background: #D5D8DC; color: white;
+}
+
+.destacado {
+	width: 180PX;
+	height: 40px;
+	background-color: #ABB2B9;
+	color: white;
+	padding: 1.5%;
+}
+
+.marco {
+	width: 400px;
+	height: 48 0px;
+}
+
+	/* HICE UNA CLASE HR PORQUE NO LEE MIS COMANDOS */
+.hr {
+	border: solid gray 1px;	
+}
+
+.etiquetanegra {
+	background-color: black;
+	width: 100px;
+	height: 20px;
+	color: white;
+}
+
+.cuadrofoto {
+	height: 80px;
+	width: 100%;
+	color: black;
+	padding: 15%;
+}
+
+.img {
+	border: solid black 1px;
+	margin-top: 20px;
+}
+
+.dias {
+	height: 80px;
+	width: 80px;
+	color: black;
+	padding: 15px;
+}
+
+.cuadroaside {
+	width: 100%;
+	height: 260px;
+	padding: 4%;
+	padding-top: 0px;
+}
+
+#cuadroaside2 {
+	width: 100%;
+	height: 80px;
+	padding: 8px;
+}
+
+#hrfoot {
+	border: 3px solid gray;
+}
+
+	/* VARIOS*/
+.gris {
+	background-color: #D5D8DC;
+}
+
+.grisclaro {
+	color: #ABB2B9;
+}
+
+.top-10{
+	margin-top: 10px;
+}
+
+.top-20{
+	margin-top: 20px;
+}
+
+.top-30{
+	margin-top: 30px;
+}
+
+.top-50 {
+	margin-top: 50px;
+}
+
+.bot-10{
+	margin-bottom: 10px;
+}
+
+.bot-20{
+	margin-bottom: 20px;
+}
+
+.padle-10{
+	padding-left: 10px;
+}
+
+.left20 {
+	margin-left: 20px;
+}
+
+.left60 {
+	margin-left: 60px;
+}
+
+.left80 {
+	margin-left: 80px;
+}
+
+.right20{
+	margin-right: 20px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.fuente13 {
+	font-size: 13px;
+}
+
+.fuente16 {
+	font-size: 16px;
+}
+
+.fuente10 {
+	font-size: 10px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+	
+	#navegador {
+		display: none;
+	}
+	
+	.marco {
+	width: 100%;
+	}
+	
+	.img {
+		width: 90%;
+		height: 90%;
+	}
+
+	#masinfo {
+		display: none;
+	}
+
+	#expertise {
+		display: none;
+	}
+}
+
+
+
+
